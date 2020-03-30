@@ -10,7 +10,6 @@ end
 get '/rps/:player1/:player2' do
   player1 = params['player1']
   player2 = params['player2']
-  result = Game.run(player1, player2)
-  return result
-  # erb(:result)
+  @result = Game.run(player1, player2)
+  erb(:result)
 end
