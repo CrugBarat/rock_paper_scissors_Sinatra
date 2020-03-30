@@ -2,25 +2,25 @@ class Game
 
   def self.run(player1, player2)
     if player1 == 'rock' && player2 == 'scissors'
-      return "Rock Wins!"
+      return "Rock breaks Scissors - Player 1 Wins!"
     elsif player1 == 'rock' && player2 == 'paper'
-      return "Paper Wins!"
+      return "Paper covers Rock - Player 2 Wins!"
     elsif player1 == 'rock' && player2 == 'rock'
-      return "Draw!"
+      return "DRAW!"
     elsif player1 == 'paper' && player2 == 'scissors'
-      return "Scissors Wins!"
+      return "Scissors cuts Paper - Player 2 Wins!"
     elsif player1 == 'paper' && player2 == 'rock'
-      return "Paper Wins!"
+      return "Paper covers Rock - Player 1 Wins!"
     elsif player1 == 'paper' && player2 == 'paper'
-      return "Draw!"
+      return "DRAW!"
     elsif player1 == 'scissors' && player2 == 'rock'
-      return "Rock Wins!"
+      return "Rock breaks scissors - Player 2 Wins!"
     elsif player1 == 'scissors' && player2 == 'paper'
-      return "Scissors Wins!"
+      return "Scissors cuts Paper - Player 1 Wins!"
     elsif player1 == 'scissors' && player2 == 'scissors'
-      return "Draw!"
+      return "DRAW!"
     else
-      return "Incorrect combination!"
+      return "Incorrect combination - please try again!"
     end
   end
 
