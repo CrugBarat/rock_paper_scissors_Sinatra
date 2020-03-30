@@ -3,7 +3,7 @@ require('sinatra/contrib/all') if development?
 require_relative('./models/game.rb')
 
 get '/rps' do
-  return "Rock, Paper, Scissors"
+  erb(:home)
 end
 
 
