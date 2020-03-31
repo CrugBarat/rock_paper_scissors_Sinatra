@@ -25,29 +25,3 @@ class Game
   end
 
 end
-
-
-
-# puts Game.compare('paper', 'rock')
-
-# if result == 1
-# p "Rock Wins!"
-# elsif result == 2
-# p "Paper Wins!"
-# elsif result == 3
-# p "Draw!"
-# elsif result == 4
-# p "Scissors Wins!"
-# elsif result == 5
-# p "Paper Wins!"
-# elsif result == 6
-# p "Draw!"
-# elsif result == 7
-# p "Rock Wins!"
-# elsif result == 8
-# p "Scissors Wins!"
-# elsif result == 9
-# p "Draw!"
-# else
-# p "Incorrect combination!"
-# end
