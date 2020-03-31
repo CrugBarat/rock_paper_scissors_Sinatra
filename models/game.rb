@@ -6,19 +6,19 @@ class Game
     elsif player1 == 'rock' && player2 == 'paper'
       return "Paper covers Rock - Player 2 Wins!"
     elsif player1 == 'rock' && player2 == 'rock'
-      return "DRAW!"
+      return "Draw - Try again!"
     elsif player1 == 'paper' && player2 == 'scissors'
       return "Scissors cuts Paper - Player 2 Wins!"
     elsif player1 == 'paper' && player2 == 'rock'
       return "Paper covers Rock - Player 1 Wins!"
     elsif player1 == 'paper' && player2 == 'paper'
-      return "DRAW!"
+      return "Draw - Try again!"
     elsif player1 == 'scissors' && player2 == 'rock'
       return "Rock breaks scissors - Player 2 Wins!"
     elsif player1 == 'scissors' && player2 == 'paper'
       return "Scissors cuts Paper - Player 1 Wins!"
     elsif player1 == 'scissors' && player2 == 'scissors'
-      return "DRAW!"
+      return "Draw - Try again!"
     else
       return "Incorrect combination - please try again!"
     end
