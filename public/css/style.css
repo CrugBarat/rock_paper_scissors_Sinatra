@@ -1,1 +1,23 @@
-body { background-color: pink; }
+body {
+  font-family:"Lucida Console", Monaco, monospace;
+}
+
+.heading {
+  color: #696969;
+  font-family:"Lucida Console", Monaco, monospace;
+  font-size:75px;
+  text-align: center;
+}
+
+.sub_heading {
+  color: #696969;
+  font-family:"Lucida Console", Monaco, monospace;
+  font-size:35px;
+  text-align: center;
+}
+
+a { color: inherit; }
+
+.img {
+  padding: 20px;
+}
