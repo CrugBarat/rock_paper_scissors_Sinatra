@@ -16,7 +16,9 @@ body {
   text-align: center;
 }
 
-a { color: inherit; }
+a {
+  color: inherit;
+}
 
 .img {
   padding: 20px;
