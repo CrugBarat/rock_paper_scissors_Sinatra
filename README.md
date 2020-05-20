@@ -18,7 +18,7 @@ This exercise was tasked to me by CodeClan, Glasgow where I studied towards a PD
 
 Navigate through the rules by clicking the instructions. When prompted to 'SHOOT', player 1 should enter their choice of rock, paper or scissors, followed by player 2. Press enter for the result.
 
-NB: this is not much of a game as player 2 can see what player 1 enters, which renders the entire game pointless - but it's what the "client" (instructor) wants and they know best :)
+NB: this is not much of a game as player 2 can see what player 1 enters, which renders the entire game pointless - but it's what the brief wanted :)
 
 ---
 
