@@ -51,7 +51,7 @@ Think about how you might differentiate between the two people playing the game 
 ```
 gem install sinatra
 ```
-- Navigate to rock_paper_scissors directory, run:
+- Navigate to rock_paper_scissors directory and run:
 
 ```
 ruby app.rb
